@@ -37,20 +37,6 @@ namespace TerrariaAutoFishing
         CScreen cScreen = new CScreen();
         POINT pOINT = new POINT();
         WinApiWindow winApiWindow = new WinApiWindow();
-        Mosue mosue = new Mosue();
-
-        [DllImport("user32.dll", CharSet = CharSet.Auto, ExactSpelling = true)]
-        public static extern IntPtr GetForegroundWindow();
-
-        [DllImport("user32.dll")]
-        public static extern IntPtr PostMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
-
-        [DllImport("user32.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall , ExactSpelling = true)]
-        public static extern void mouse_control(Int32 dwFlags, Int32 dx, Int32 dy, Int32 cButtons, Int32 dwExtraInfo);
-
-        IntPtr ii;
-        const int click_left = 0x02;
-        const int unclick_left = 0x04;
         public MainWindow()
         {
             InitializeComponent();
@@ -81,6 +67,7 @@ namespace TerrariaAutoFishing
             
         }
         bool act_ = true;
+        double last_t = 0;
         void EventTimer(int i, int e)
         {
             if (Keyboard.IsKeyDown(Key.K))
@@ -105,6 +92,8 @@ namespace TerrariaAutoFishing
                 if (d >= 0.05 && act_)
                 {
 
+                    
+
 
                     Mosue.mouse_event((int)(MouseFlags.LEFTDOWN), 0, 0, 0, 0);
                     Thread.Sleep(100);
@@ -116,18 +105,17 @@ namespace TerrariaAutoFishing
                     Thread.Sleep(100);
                     Mosue.mouse_event((int)(MouseFlags.LEFTUP), 0, 0, 0, 0);
 
-                    act_ = false;
-                    Console.WriteLine("Click");
                     
+                   
+
+                    act_ = false;
+
                 }
                 if(act_ == false)
                 {
                     Thread.Sleep(1000);
                     act_ = true;
-
                 }
-
-                
             }
             lll.Content = $"D: {d} KeyState: {keyHook.is_down} Sleep: {act_}";
             Console.WriteLine(d);
