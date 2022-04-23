@@ -1,0 +1,16 @@
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\TerrariaAutoFishing.csproj.AssemblyReference.cache
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\TerrariaAutoFishing.csproj.SuggestedBindingRedirects.cache
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\MainWindow.g.cs
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\App.g.cs
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\TerrariaAutoFishing_MarkupCompile.cache
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\TerrariaAutoFishing_MarkupCompile.lref
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\bin\Debug\TerrariaAutoFishing.exe.config
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\bin\Debug\TerrariaAutoFishing.exe
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\bin\Debug\TerrariaAutoFishing.pdb
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\MainWindow.baml
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\TerrariaAutoFishing.g.resources
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\TerrariaAutoFishing.Properties.Resources.resources
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\TerrariaAutoFishing.csproj.GenerateResource.cache
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\TerrariaAutoFishing.csproj.CoreCompileInputs.cache
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\TerrariaAutoFishing.exe
+C:\Users\UnderKo\source\repos\TerrariaAutoFishing\TerrariaAutoFishing\obj\Debug\TerrariaAutoFishing.pdb
